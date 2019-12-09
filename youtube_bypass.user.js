@@ -9,8 +9,8 @@
 //debugger;
 
 var button = document.createElement("button");
-button.innerHTML = "Title";
-button.style = "top:0;right:0;position:absolute;z-index:99999;padding:5px;";
+button.innerHTML = "ByPass";
+button.style = "top:0;right:0;position:absolute;z-index:99999;padding:5px;border-radius:50%;background-color:#4CAF50;";
 document.body.appendChild(button);
 button.setAttribute('id', 'myButton');
 
